@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SharedPref_SampleThree_Android_Github</string>
+    <string name="button_text_onboard">Let\'s Go</string>
+    <string name="text_home">Home Activity</string>
 </resources>

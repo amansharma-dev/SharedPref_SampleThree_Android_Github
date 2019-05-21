@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_onboard"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:padding="5dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </android.support.v4.view.ViewPager>
+
+    <Button
+        android:id="@+id/button_onboard"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="@string/button_text_onboard"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewpager_onboard"
+        android:onClick="letsGoBtn"/>
+
+</android.support.constraint.ConstraintLayout>
